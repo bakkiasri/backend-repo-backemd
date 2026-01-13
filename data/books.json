@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "title": "React Basics",
+    "description": "Learn React step by step",
+    "price": 499,
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400&h=300&fit=crop",
+    "sold": false
+  },
+  {
+    "id": 2,
+    "title": "Node.js Guide",
+    "description": "Backend development with Node",
+    "price": 599,
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop",
+    "sold": false
+  },
+  {
+    "id": 3,
+    "title": "JavaScript Essentials",
+    "description": "Master JavaScript fundamentals",
+    "price": 399,
+    "image": "https://images.unsplash.com/photo-1526378722445-30d9dca1f6b3?w=400&h=300&fit=crop",
+    "sold": false
+  },
+  {
+    "id": 4,
+    "title": "HTML & CSS",
+    "description": "Build modern websites",
+    "price": 299,
+    "image": "https://images.unsplash.com/photo-1505685296765-3a2736de412f?w=400&h=300&fit=crop",
+    "sold": false
+  },
+  {
+    "id": 5,
+    "title": "Advanced React",
+    "description": "Hooks, Context, and more",
+    "price": 699,
+    "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=400&h=300&fit=crop",
+    "sold": false
+  },
+  {
+    "id": 6,
+    "title": "Express.js Fundamentals",
+    "description": "Server-side development with Express",
+    "price": 549,
+    "image": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?w=400&h=300&fit=crop",
+    "sold": false
+  },
+  {
+    "id": 7,
+    "title": "MongoDB Basics",
+    "description": "Database management with MongoDB",
+    "price": 499,
+    "image": "https://images.unsplash.com/photo-1548094990-c16ca90f1f0d?w=400&h=300&fit=crop",
+    "sold": false
+  },
+  {
+    "id": 8,
+    "title": "Fullstack Development",
+    "description": "Frontend + Backend integration",
+    "price": 899,
+    "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=400&h=300&fit=crop",
+    "sold": false
+  },
+  {
+    "id": 9,
+    "title": "TypeScript Essentials",
+    "description": "Strong typing for JavaScript",
+    "price": 599,
+    "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=400&h=300&fit=crop",
+    "sold": false
+  },
+  {
+    "id": 10,
+    "title": "React Native Basics",
+    "description": "Mobile apps with React Native",
+    "price": 699,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=300&fit=crop",
+    "sold": false
+  },
+  {
+    "id": 11,
+    "title": "Python for Beginners",
+    "description": "Learn Python from scratch",
+    "price": 399,
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=400&h=300&fit=crop",
+    "sold": false
+  },
+  {
+    "id": 12,
+    "title": "Django Guide",
+    "description": "Web development with Django",
+    "price": 649,
+    "image": "https://images.unsplash.com/photo-1537432376769-00aabc0f2a30?w=400&h=300&fit=crop",
+    "sold": false
+  },
+  {
+    "id": 13,
+    "title": "Data Structures",
+    "description": "Learn core computer science concepts",
+    "price": 499,
+    "image": "https://images.unsplash.com/photo-1517142089942-ba376ce32a0b?w=400&h=300&fit=crop",
+    "sold": false
+  },
+  {
+    "id": 14,
+    "title": "Algorithms Mastery",
+    "description": "Solve problems efficiently",
+    "price": 599,
+    "image": "https://images.unsplash.com/photo-1605379399642-870262d3d051?w=400&h=300&fit=crop",
+    "sold": false
+  },
+  {
+    "id": 15,
+    "title": "Vue.js Basics",
+    "description": "Frontend development with Vue",
+    "price": 499,
+    "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=400&h=300&fit=crop",
+    "sold": false
+  },
+  {
+    "id": 16,
+    "title": "Angular Essentials",
+    "description": "Build scalable web apps",
+    "price": 599,
+    "image": "https://images.unsplash.com/photo-1581092160613-f6aa7c6f5a9f?w=400&h=300&fit=crop",
+    "sold": false
+  },
+  {
+    "id": 17,
+    "title": "PHP & MySQL",
+    "description": "Backend development with PHP",
+    "price": 399,
+    "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=300&fit=crop",
+    "sold": false
+  },
+  {
+    "id": 18,
+    "title": "Git & GitHub",
+    "description": "Version control essentials",
+    "price": 299,
+    "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=400&h=300&fit=crop",
+    "sold": false
+  },
+  {
+    "id": 19,
+    "title": "AWS Basics",
+    "description": "Introduction to cloud computing",
+    "price": 699,
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop",
+    "sold": false
+  },
+  {
+    "id": 20,
+    "title": "Docker Essentials",
+    "description": "Containerization for developers",
+    "price": 599,
+    "image": "https://images.unsplash.com/photo-1605902711622-cfb43c44367f?w=400&h=300&fit=crop",
+    "sold": false
+  }
+]
