@@ -4,34 +4,39 @@ const fs = require("fs");
 const path = require("path");
 
 const booksPath = path.join(__dirname, "../data/books.json");
-const ordersPath = path.join(__dirname, "../data/orders.json");
 
-// PLACE ORDER
+/**
+ * POST /api/orders
+ * action = "add"    → sold = true
+ * action = "remove" → sold = false
+ */
 router.post("/", (req, res) => {
-  const { user, cart } = req.body;
+  try {
+    const { cart, action } = req.body;
 
-  let books = JSON.parse(fs.readFileSync(booksPath));
-  let orders = JSON.parse(fs.readFileSync(ordersPath));
+    if (!cart || cart.length === 0) {
+      return res.status(400).json({ message: "Cart is empty" });
+    }
 
-  // mark books as sold
-  cart.forEach((item) => {
-    const book = books.find((b) => b.id === item.id);
-    if (book) book.sold = true;
-  });
+    const books = JSON.parse(fs.readFileSync(booksPath, "utf-8"));
 
-  const newOrder = {
-    id: Date.now(),
-    user,
-    cart,
-    date: new Date(),
-  };
+    cart.forEach((item) => {
+      const index = books.findIndex((b) => b.id === item.id);
+      if (index !== -1) {
+        books[index].sold = action === "remove" ? false : true;
+      }
+    });
 
-  orders.push(newOrder);
+    fs.writeFileSync(booksPath, JSON.stringify(books, null, 2));
 
-  fs.writeFileSync(booksPath, JSON.stringify(books, null, 2));
-  fs.writeFileSync(ordersPath, JSON.stringify(orders, null, 2));
-
-  res.json({ message: "Order placed successfully" });
+    res.json({
+      message:
+        action === "remove" ? "Book removed from cart" : "Book added to cart",
+    });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Internal server error" });
+  }
 });
 
 module.exports = router;

@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": 22,
+    "title": "React Basics22",
+    "description": "Learn React step by step",
+    "price": 499,
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400&h=300&fit=crop",
+    "sold": false
+  }
+]

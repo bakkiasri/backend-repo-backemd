@@ -13,7 +13,7 @@
     "description": "Backend development with Node",
     "price": 599,
     "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop",
-    "sold": false
+    "sold": true
   },
   {
     "id": 3,
